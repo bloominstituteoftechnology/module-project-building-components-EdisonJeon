@@ -61,7 +61,7 @@ function moduleProject3() {
     );
     favLangP.textContent = `Favorite Language: ${favLanguage.name}`;
 
-    [nameP, dobP, favLangP].forEach((p) => {
+    [nameP, idElement, dobP, favLangP].forEach((p) => {
       card.appendChild(p);
     });
 
